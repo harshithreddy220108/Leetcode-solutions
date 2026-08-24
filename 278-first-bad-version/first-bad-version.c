@@ -2,7 +2,7 @@
 // bool isBadVersion(int version);
 
 int firstBadVersion(int n) {
-    int left = 0;
+    int left = 1;
     int right = n;
     while (left < right){
         int mid = left + (right-left)/2;
